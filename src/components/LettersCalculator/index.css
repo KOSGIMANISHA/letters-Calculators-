@@ -1,0 +1,51 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 35px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+.para {
+  font-size: 13px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #e4e7eb;
+}
+.input-text {
+  padding: 10px;
+  margin-bottom: 13px;
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.letter-count {
+  background-color: #ffffff;
+  color: #1d976c;
+  height: auto;
+  width: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-weight: 600;
+  margin-top: 10px;
+  outline: none;
+}
+.calcuator-img {
+  height: 300px;
+  width: 400px;
+}
